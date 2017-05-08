@@ -1,0 +1,62 @@
+﻿Build started 5/8/2017 2:40:01 AM.
+     1>Project "C:\Users\crims\Desktop\temp 2\quake2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTCs /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt client\menu.c
+         menu.c
+     1>c:\users\crims\desktop\temp 2\client\menu.c(3581): warning C4715: 'PlayerConfig_ScanDirectories' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\crims\Desktop\temp 2\Quake2\quake2.exe" /INCREMENTAL /NOLOGO winmm.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\crims\Desktop\temp 2\Quake2\quake2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\crims\Desktop\temp 2\Quake2\quake2.lib" /MACHINE:X86 Debug\q2.res
+         Debug\cl_cin.obj
+         Debug\cl_ents.obj
+         Debug\cl_fx.obj
+         Debug\cl_input.obj
+         Debug\cl_inv.obj
+         Debug\cl_main.obj
+         Debug\cl_newfx.obj
+         Debug\cl_parse.obj
+         Debug\cl_pred.obj
+         Debug\cl_scrn.obj
+         Debug\cl_tent.obj
+         Debug\cl_view.obj
+         Debug\console.obj
+         Debug\keys.obj
+         Debug\menu.obj
+         Debug\qmenu.obj
+         Debug\snd_dma.obj
+         Debug\snd_mem.obj
+         Debug\snd_mix.obj
+         Debug\x86.obj
+         Debug\m_flash.obj
+         Debug\q_shared.obj
+         Debug\cmd.obj
+         Debug\cmodel.obj
+         Debug\common.obj
+         Debug\crc.obj
+         Debug\cvar.obj
+         Debug\files.obj
+         Debug\md4.obj
+         Debug\net_chan.obj
+         Debug\pmove.obj
+         Debug\sv_ccmds.obj
+         Debug\sv_ents.obj
+         Debug\sv_game.obj
+         Debug\sv_init.obj
+         Debug\sv_main.obj
+         Debug\sv_send.obj
+         Debug\sv_user.obj
+         Debug\sv_world.obj
+         Debug\cd_win.obj
+         Debug\conproc.obj
+         Debug\in_win.obj
+         Debug\net_wins.obj
+         Debug\q_shwin.obj
+         Debug\snd_win.obj
+         Debug\sys_win.obj
+         Debug\vid_dll.obj
+         Debug\vid_menu.obj
+         quake2.vcxproj -> C:\Users\crims\Desktop\temp 2\Quake2\quake2.exe
+     1>Done Building Project "C:\Users\crims\Desktop\temp 2\quake2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.47

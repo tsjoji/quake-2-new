@@ -1,0 +1,1 @@
+in order for the mod to work you need to put the timesdead.txt folder into the same folder as the quake 2 exe
