@@ -326,7 +326,7 @@ void HelpComputer (edict_t *ent)
 		strcpy(message1death, "mutants are enabled gl");
 	}
 
-	percentager = level.killed_monsters / level.total_monsters * 100;
+	percentager = (float)level.killed_monsters / (float)level.total_monsters * 100;
 	deadcount = dead - 48;
 	//mod ends here
 

@@ -4016,5 +4016,5 @@ void M_Keydown (int key)
 
 void spin(void)
 {
-	//S_StartLocalSound("box.wav");
+	S_StartLocalSound("box.wav");
 }
