@@ -2163,7 +2163,7 @@ void weapon_railgun_fire (edict_t *ent)
 
 	if (is_quad)
 	{
-		damage *= 4;
+		
 		kick *= 4;
 	}
 
